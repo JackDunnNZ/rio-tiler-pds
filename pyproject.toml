@@ -21,10 +21,10 @@ classifiers = [
 dynamic = ["version"]
 dependencies = ["rio-tiler>=7.0,<8.0", "boto3"]
 
-[project.optional-dependencies]
-test = ["pytest", "pytest-cov"]
-dev = ["pre-commit"]
+[dependency-groups]
+dev = ["pytest", "pytest-cov", "pre-commit"]
 docs = ["mkdocs", "mkdocs-material", "pygments", "mkapi"]
+deploy = ["flit>=3.2,<4"]
 
 [project.urls]
 Source = "https://github.com/cogeotiff/rio-tiler-pds"
