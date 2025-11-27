@@ -3,6 +3,7 @@
 ## 0.12.0 (TBD)
 
 * remove python 3.8, 3.9 and 3.10 support **breaking change**
+* update rio-tiler requirement to `>=8.0,<9.0`
 
 ## 0.11.1 (2025-01-28)
 
